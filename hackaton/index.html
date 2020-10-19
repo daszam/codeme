@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+    <title>EiM</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-light bg-light">
+            <img class="bolt_image" src="icons/bolt-solid.svg" />
+            <h1 class="pageTitle">Elektryczność i magnetyzm</h1>
+            <div>
+                <a href="#quiz"><button class="btn btn-outline-secondary navigationEl" type="button">Quiz</button></a>
+                <a href="#open_questions"><button class="btn btn-outline-secondary navigationEl" type="button">Pytania otwarte</button></a>
+                <a href="#learn_more"><button class="btn btn-outline-secondary navigationEl" type="button">Dowiedz się więcej!</button></a>
+            </div>
+        </nav>
+    </header>
+
+    <main class="page">
+
+        <a id="quiz"><h2 class="section_title">Quiz</h2></a>
+
+        <div class="row quiz_row">
+
+            <div class="card" style="width: 65%;">
+                <div class="card-body quiz_card">
+                    <h5 class="card-title">Stan namagnesowania ferromagnetyka przy braku zewnętrznego pola
+                        magnetycznego:</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">Wybierz jedną odpowiedź</h6>
+                    <from>
+                        <div class="form-check">
+                            <div class="form-group">
+                                <input class="form-check-input" type="checkbox" value="" id="optionA">
+                                <label class="form-check-label" for="optionA">
+                                    A. Zalezy od jego historii
+                                </label>
+                            </div>
+
+                            <div class="form-group">
+                                <input class="form-check-input" type="checkbox" value="" id="optionB">
+                                <label class="form-check-label" for="optionB">
+                                    B. Jest taki, jakby był paramagnetykiem
+                                </label>
+                            </div>
+
+                            <div class="form-group">
+                                <input class="form-check-input" type="checkbox" value="" id="optionC">
+                                <label class="form-check-label" for="optionC">
+                                    C. Jest taki, jakby był diamagnetykiem
+                                </label>
+                            </div>
+
+                            <div class="form-group">
+                                <input class="form-check-input" type="checkbox" value="" id="optionD">
+                                <label class="form-check-label" for="optionD">
+                                    D. W zerowym zewnętrznym polu wektor namagnesowania wynosi zawsze 0
+                                </label>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-secondary" style="float: right;">Dalej -></button>
+                    </from>
+                </div>
+            </div>
+
+            <div class="card d-flex justify-content-center flex-row" style="width: 35%;">
+                <img class="card-img-top d-flex quiz_image lightbulb_image" src="icons/lightbulb-regular.svg"
+                    alt="Card image cap" style="max-width: 200px;" />
+            </div>
+
+        </div>
+
+        <a id="open_questions"><h2 class="section_title">Pytania otwarte</h2></a>
+        <div class=open_questions>
+
+            <div id="accordion">
+
+                <div class="card">
+                    <div class="card-header" id="headingOne">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed text-question" data-toggle="collapse"
+                                data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                1. Podaj prawo Ampera. Wyjaśnij występujące w nim wielkości i podaj przykład
+                                zastosowania.
+                            </button>
+                        </h5>
+                    </div>
+
+                    <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                        <div class="card-body">
+                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
+                            squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa
+                            nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid
+                            single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft
+                            beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice
+                            lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you
+                            probably haven't heard of them accusamus labore sustainable VHS.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header" id="headingTwo">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed text-question" data-toggle="collapse"
+                                data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                2. Podaj prawo Gaussa. Wyjaśnij występujące w nim wielkości i podaj przykład
+                                zastosowania.
+                            </button>
+                        </h5>
+                    </div>
+
+                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                        <div class="card-body">
+                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
+                            squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa
+                            nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid
+                            single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft
+                            beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice
+                            lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you
+                            probably haven't heard of them accusamus labore sustainable VHS.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header" id="headingThree">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed text-question" data-toggle="collapse"
+                                data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                3. Podaj prawa Maxwella i dokładnie wyjaśnij występujące w nich wielkości.
+                            </button>
+                        </h5>
+                    </div>
+
+                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                        <div class="card-body">
+                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
+                            squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa
+                            nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid
+                            single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft
+                            beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice
+                            lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you
+                            probably haven't heard of them accusamus labore sustainable VHS.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header" id="headingFour">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed text-question" data-toggle="collapse"
+                                data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                4. Podaj kilka przykładów pół wektorowych i skalarnych.
+                            </button>
+                        </h5>
+                    </div>
+
+                    <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+                        <div class="card-body">
+                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
+                            squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa
+                            nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid
+                            single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft
+                            beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice
+                            lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you
+                            probably haven't heard of them accusamus labore sustainable VHS.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header" id="headingFive">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed text-question" data-toggle="collapse"
+                            data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                            5. Dlaczego linie sił pola elektrycznego nie mogą się przecinać?
+                        </button>
+                    </h5>
+                </div>
+
+                <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
+                    <div class="card-body">
+                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.
+                        3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt
+                        laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin
+                        coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes
+                        anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings
+                        occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard
+                        of them accusamus labore sustainable VHS.
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+        <a id="learn_more"><h2 class="section_title">Dowiedz się więcej!</h2></a>
+        <div class="learn_more_container">
+            <div class="d-flex justify-content-center flex-row">
+
+                <div class="card learn_more_card">
+                    <div class="card-img-top learn_more_image_container  d-flex justify-content-center flex-row">
+                        <img class="learn_more_single_image" src="images/transformator.png">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            Transformator
+                        </h5>
+                        <p class="card-text">
+                            Maszyna elektryczna służąca do przenoszenia energii elektrycznej prądu przemiennego drogą
+                            indukcji z jednego obwodu elektrycznego do drugiego, z zachowaniem pierwotnej
+                            częstotliwości. Zwykle zmieniane jest równocześnie napięcie elektryczne (wyjątek stanowi
+                            transformator separacyjny, w którym napięcie nie ulega zmianie).
+                            <a href="https://pl.wikipedia.org/wiki/Transformator"><img src="icons/wikipedia.svg"></a>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="card learn_more_card">
+                    <div class="card-img-top learn_more_image_container  d-flex justify-content-center flex-row">
+                        <img class="learn_more_single_image" src="images/cyklotron.png">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            Cyklotron
+                        </h5>
+                        <p class="card-text">
+                            Najprostsza i pierwsza historycznie forma akceleratora cyklicznego cząstek obdarzonych
+                            ładunkiem elektrycznym.
+                            W akceleratorach cyklicznych, także w cyklotronie, przyspieszane cząstki poruszają się po
+                            torach zbliżonych do kołowych, przebiegając wielokrotnie przez obszar, w którym są
+                            przyspieszane.
+                            <a href="https://pl.wikipedia.org/wiki/Cyklotron"><img src="icons/wikipedia.svg"></a>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="card learn_more_card">
+                    <div class="card-img-top learn_more_image_container  d-flex justify-content-center flex-row">
+                        <img class="learn_more_single_image" src="images/glosnik.svg">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            Głośnik
+                        </h5>
+                        <p class="card-text">
+                            Przetwornik elektroakustyczny (odbiornik energii elektrycznej przekształcający prąd
+                            elektryczny w falę akustyczną). Idealny głośnik przekształca zmienny prąd elektryczny o
+                            odpowiedniej częstotliwości na falę akustyczną, proporcjonalnie i liniowo. Rzeczywisty
+                            zakres częstotliwości, w którym głośnik wytwarza falę ciśnienia proporcjonalnie do napięcia
+                            (z dopuszczalnym odchyleniem) nazywa się pasmem przenoszenia głośnika.
+                            <a href="https://pl.wikipedia.org/wiki/Głośnik"><img src="icons/wikipedia.svg"></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
